@@ -1,9 +1,2 @@
-
-export interface Apple {
-  id: number;
-  x: number; // percentage from left
-  y: number; // percentage from top
-  speed: number;
-}
-
-export type GameState = 'start' | 'playing' | 'gameOver';
+// This file is no longer needed. All code has been merged into index.tsx.
+// You can safely delete this file.
