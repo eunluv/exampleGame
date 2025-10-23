@@ -1,0 +1,5 @@
+{
+  "name": "Apple Catcher Game",
+  "description": "A fun and simple game where you click on falling apples to score points. Miss too many apples and the game is over! Test your reflexes and see how high you can score.",
+  "requestFramePermissions": []
+}
