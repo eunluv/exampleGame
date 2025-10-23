@@ -5,6 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNIDUwLDI5IEMgMjAsMjkgMTUsNTggMzAsNzggQyA0NSw5OCA1NSw5OCA3MCw3OCBDIDg1LDU4IDgwLDI5IDUwLDI5IFoiIGZpbGw9IiNmNDQzMzYiLz48cGF0aCBkPSJNIDUwLDI5IEMgNDAsMzggNjAsMzggNTAsMjkgWiIgZmlsbD0iI2M2MjgyOCIvPjxwYXRoIGQ9Ik0gNTAsMjkgQyA1MiwyMCA2MiwyMCA2MCwxMCIgc3Ryb2tlPSIjNzk1NTQ4IiBzdHJva2Utd2lkdGg9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0gNjAsMjAgQyA3MCwxMCA4MCwyMCA2NSwyNSIgZmlsbD0iIzRjYWY1MCIvPjwvc3ZnPg==" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple Catcher Game</title>
+    <script>
+      // Dynamically set the base path for relative URLs to work on GitHub Pages
+      (function() {
+        const path = window.location.pathname;
+        const repoPath = path.substring(0, path.lastIndexOf('/') + 1);
+        // This prevents setting a base tag on the root path, which is common in local dev.
+        if (repoPath && repoPath !== '/') {
+          const base = document.createElement('base');
+          base.href = repoPath;
+          document.head.prepend(base);
+        }
+      })();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Add Babel for in-browser JSX/TSX transformation -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
